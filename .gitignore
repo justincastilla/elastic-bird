@@ -1,0 +1,10 @@
+.DS_Store
+node_modules
+.env
+.package-lock.json
+node_modules
+backend/uploads/*
+backend/scripts/*
+frontend/public/birds/*
+__pycache__/*
+.next/*

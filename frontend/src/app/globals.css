@@ -1,0 +1,103 @@
+/* styles/globals.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+form {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+
+
+input[type="file"] {
+  padding: 10px;
+  background-color: #f4f4f9;
+  border: 2px dashed #ccc;
+  border-radius: 8px;
+  width: 100%;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+button {
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #005bb5;
+}
+
+
+
+.similar-images-container {
+  display: flex;  
+  margin-top: 20px;
+  gap: 120px;
+}
+
+.similar-images-container img {
+  border-radius: 8px;
+  border: 2px solid #eee;
+  width: 100px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.similar-images-container img:hover {
+  transform: scale(1.05);
+  border-color: #0070f3;
+}
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+} */
